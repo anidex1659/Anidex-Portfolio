@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/Aimestions.css">
+    <link rel="stylesheet" href="./Styles/poup.css">
+    <link rel="stylesheet" href="./Styles/Mobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+          }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <title>Anidex</title>
+
+</head>
+
+<body>
+
+<div id="loading-screen">
+  <div class="loader-content">
+    <h1 class="tracking-in-expand">
+      < Welcome />
+    </h1>
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+  </div>
+</div>
+
+    <script type="module" src="./Scripts/3D.js"></script>
+
+
+    <div id="nav_con">
+      <nav id="nav">
+        <a href="#projects_section" class="nav_item_r">
+          <h3>Projects</h3>
+        </a>
+        <a href="#skills" class="nav_item_r">
+          <h3>Skills</h3>
+        </a>
+        <h3 class="nav_Title">Anidex</h3>
+        <a href="#about" class="nav_item_l">
+          <h3>About</h3>
+        </a>
+        <a href="#contact" class="nav_item_l">
+          <h3>Contact</h3>
+        </a>
+      </nav>
+    </div>
+
+    <section id="hero_section" data-bg-view="hero">
+        <div id="hero">
+            <div id="hero_div">
+                <h1 class="tracking-in-expand">
+                    < Arihant Mandape />
+                </h1>
+                <p class="text-focus-in">AI-DS | Web Devlopment | Game Devlopment</p>
+            </div>
+        </div>
+        <div id="intro" class="text-focus-in">
+            <h1>HI</h1>
+            <p id="intro_p">
+                I'm Arihant Mandape, an AI & Data Science graduate skilled in HTML, CSS, JavaScript, React, Node.js, and
+                MongoDB. I love building creative web applications, exploring AI, and bringing unique ideas to life.
+            </p>
+        </div>
+    </section>
+
+
+<section id="projects_section" data-bg-view="projects">
+  <h1 id="Projects_title" class="tracking-in-expand">
+    < Projects />
+  </h1>
+
+  <div id="projects_con">
+    
+    <div id="projects_card">
+      <div id="carousel_hint">· HOVER TO PAUSE ·</div>
+    </div>
+    
+    <div id="discription">
+      
+      <div id="discription_info" style=" margin-right: auto;">
+        <h1 id="project_name">ShowCase</h1>
+        <p id="project_description">
+          A local-first Android media library with a modern streaming-style
+          interface.
+        </p>
+        <div style="display: flex; flex-direction: row; gap: 10px;">
+          <button type="button" onclick="" id="ss-btn">Screen-Shots</button>
+          <button type="button" onclick="" id="git-btn">GitHUB</button>
+        </div>
+      </div>
+      
+      <div id="stack">
+        <img src="https://skillicons.dev/icons?i=js,html,css,wasm(https://skillicons.dev)" alt="">
+      </div>
+    </div>
+
+</section>
+
+
+<section id="skills" data-bg-view="skills">
+  <h1 id="skills_t" class="tracking-in-expand">
+    < Skill's />
+  </h1>
+
+  <div id="skills_bg">
+      <video src="./Resources/videos/skybackground.mp4" autoplay muted loop id="sky_img" class="scale-in-hor-center "></video>
+    </div>
+
+  <div id="skills_g">
+
+    <div id="skills_card">
+      <div id="skills_icons">
+        <p id="skills_tag">< Frontend /></p>  <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,vite&perline=6&theme=light" alt="Frontend">
+        <p id="skills_tag">< Backend & Database /></p><img src="https://skillicons.dev/icons?i=nodejs,express,java,python,mongodb,mysql&perline=6&theme=light" alt="Backend and Database">
+      </div>
+
+      <div id="edu">
+        <p id="skills_tag">< App & 3D Development /></p><img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,blender,threejs,godot&perline=6&theme=light" alt="App and 3D Development">
+        <p id="skills_tag">< AI & Tools /></p><img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,postman,git,github&perline=6&theme=light" alt="AI and Tools">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" data-bg-view="about">
+  <h1 id="about_t"  class="tracking-in-expand">
+    < About />
+  </h1>
+    <div id="about_card">
+      <h1 data-aos="fade-right" data-aos-duration="8000">Hello</h1> 
+      <p id="about_p" data-aos="fade-right" data-aos-duration="10000">
+        I'm Arihant Mandape, an AI & Data Science graduate passionate about turning creative ideas into real-world
+      applications through code.
+      <br>
+      I hold a <span style="font-weight: bold;">Bachelor's degree in Artificial Intelligence & Data Science (2023–2026)</span> from Konkan Gyanpeeth College of
+      Engineering, following a  <span style="font-weight: bold;">Diploma in Computer Science (2020–2023)</span> from Latthe Education Society's Polytechnic, Sangli.
+      <br>
+      My interests span Web Development, AI, Android Development, and 3D/Game Development. With hands-on experience in
+      JavaScript, React, Node.js, Python, Kotlin, and MongoDB, I enjoy exploring new technologies and building practical,
+      creative solutions.
+      <br>
+      Beyond coding, I love experimenting with 3D environments, customizing digital experiences, and working on unconventional
+      project ideas.
+      <br><br>
+      My philosophy: Building weird, useful things — one idea at a time.
+      </p>
+    </div>
+</section>
+
+<section id="contact" data-bg-view="contact">
+  <h1 id="contact_t" class="tracking-in-expand">
+    < Contact />
+  </h1>
+  <div id="contact-links">
+    <p>
+      <a href="https://github.com/anidex1659">GitHub</a> |
+      <a href="https://www.linkedin.com/in/arihant-mandape-097467423">LinkedIn</a> 
+    </p>
+  </div>
+  <form id="contact_form">
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+    <textarea name="message" id="message" rows="10" placeholder="Message" required></textarea>
+    <button type="submit" id="submit"> Send Message </button>
+    <p id="form_status"></p>
+  </form>
+</section>
+
+<section id="thankyou" data-bg-view="ThankYou">
+  <h1 id="thankyou_t" class="tracking-in-expand">
+    < Thank You />
+  </h1>
+</section>
+
+<!-- Project Screenshot Popup -->
+<div id="screenshot_modal" class="screenshot-modal" aria-hidden="true">
+  <div class="screenshot-backdrop"></div>
+
+  <div
+    class="screenshot-dialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="screenshot_title"
+  >
+    <header class="screenshot-header">
+      <div>
+        <p class="screenshot-eyebrow">ANIDEX / PROJECT GALLERY</p>
+        <h2 id="screenshot_title">ShowCase</h2>
+      </div>
+
+      <button
+        id="screenshot_close"
+        class="screenshot-close"
+        aria-label="Close gallery"
+      >&times;</button>
+    </header>
+
+    <div class="screenshot-viewer">
+      <button id="screenshot_prev" class="screenshot-nav" aria-label="Previous screenshot">
+        &#10094;
+      </button>
+
+      <img id="screenshot_image" src="" alt="Project screenshot">
+
+      <button id="screenshot_next" class="screenshot-nav" aria-label="Next screenshot">
+        &#10095;
+      </button>
+    </div>
+
+    <div class="screenshot-footer">
+      <span id="screenshot_caption">Preview</span>
+      <span id="screenshot_counter">01 / 04</span>
+    </div>
+
+    <div id="screenshot_thumbnails" class="screenshot-thumbnails"></div>
+  </div>
+</div>
+
+
+    
+<script>
+  const sections = document.querySelectorAll("[data-bg-view]");
+  const visibility = new Map();
+
+  function setupBackgroundViews() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        visibility.set(
+          entry.target,
+          entry.isIntersecting ? entry.intersectionRatio : 0
+        );
+      });
+
+      let bestSection = null;
+      let bestRatio = 0;
+
+      visibility.forEach((ratio, section) => {
+        if (ratio > bestRatio) {
+          bestRatio = ratio;
+          bestSection = section;
+        }
+      });
+
+      // Debug: log the section selected by the observer
+      console.log(
+        "Visible section:",
+        bestSection?.id,
+        "View:",
+        bestSection?.dataset.bgView
+      );
+
+      if (bestSection && window.modelBackground) {
+        window.modelBackground.setView(bestSection.dataset.bgView);
+      }
+    }, {
+      threshold: [0, 0.1, 0.25, 0.5, 0.75, 1],
+      rootMargin: "-10% 0px -10% 0px"
+    });
+
+    sections.forEach((section) => observer.observe(section));
+  }
+
+  window.addEventListener("model-background-ready", setupBackgroundViews, {
+    once: true
+  });
+</script>
+<script>
+        console.log("Page:", location.href);
+        console.log("Sections:", [...document.querySelectorAll("section")].map(s => s.id));
+        console.log("Projects:", document.getElementById("projects_section"));
+</script>
+<script src="./Scripts/poup.js"></script>
+<script src="./Scripts/email.js"></script>
+<script src="./Scripts/AOS.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
